@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe6f2; /* Light pink background */
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #007bff; /* Navbar color */
+            padding: 10px 20px;
+            color: #fff;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            display: flex;
+            margin: 20px;
+        }
+
+        .sidebar {
+            width: 20%;
+            padding: 10px;
+            background-color: #f8d7da; /* Light red sidebar background */
+            border: 1px solid #ddd;
+            border-right: none; /* Removed line on the right of the sidebar */
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sidebar li {
+            margin-bottom: 10px;
+        }
+
+        .main-content {
+            width: 80%;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+
+        .main-content p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        h2 {
+            border-bottom: none; /* Removed the line below the heading */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Online Book Store</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Registration</a>
+        <a href="#">Catalogue</a>
+        <a href="#">Cart</a>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="sidebar">
+        <ul>
+            <li>CSE</li>
+            <li>CSBS</li>
+            <li>IT</li>
+            <li>Mechanical</li>
+            <li>ECE</li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h2>Welcome to Online Book Store</h2>
+        <p>Our Online Book Store offers a vast collection of books across various disciplines, including CSE, CSBS, IT, Mechanical, and ECE. Whether you are a student, a professional, or a book enthusiast, you will find resources tailored to your needs. Explore our catalogue, register for an account, and enjoy a seamless book shopping experience.</p>
+    </div>
+</div>
+
+</body>
+</html>
